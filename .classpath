@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry excluding="main/resources/" kind="src" path="src"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.5/jcl-over-slf4j-1.7.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/shiro/shiro-web/1.2.2/shiro-web-1.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/stormpath/shiro/stormpath-shiro-core/0.4.0/stormpath-shiro-core-0.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/stormpath/sdk/stormpath-sdk-api/0.8.1/stormpath-sdk-api-0.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/stormpath/sdk/stormpath-sdk-httpclient/0.8.1/stormpath-sdk-httpclient-0.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/stormpath/sdk/stormpath-sdk-impl/0.8.1/stormpath-sdk-impl-0.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.2/httpclient-4.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
