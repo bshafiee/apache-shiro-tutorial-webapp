@@ -47,7 +47,7 @@
     </p>
 
     <p>Welcome to the Apache Shiro Tutorial Webapp.  This page represents the home page of any web application.</p>
-
+    <h2>Attention:<%= %></h2>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
