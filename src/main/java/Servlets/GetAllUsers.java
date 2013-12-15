@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.shiro.SecurityUtils;
 
-import Database.PostgreSQLAdaptor;
+import database.PostgreSQLAdaptor;
+import database.UsersModel;
 
 
 /**
@@ -35,7 +36,11 @@ import Database.PostgreSQLAdaptor;
 		if( userAgent != null)
 			clientBrowser = userAgent;
 		request.setAttribute("fuck",PostgreSQLAdaptor.getInstance().initialize());
-		System.out.println(request.getHeader("test"));
+		UsersModel user1 = new UsersModel();
+		user1.fromDatabase(3);
+		System.out.println(user1.toString());
+		String exist =user1.remove() ? "REMOVED":"NOT REMOVED"; 
+		System.out.println(exist+"  "+user1.toString());
 		
 		
 		request.getRequestDispatcher("/home.jsp").forward(request,response);
